@@ -23,12 +23,22 @@ def main():
     lines = read_input()
     print(lines)
 
-    print('Part 1:', 0)
-    print('Part 2:', 0)
+    print('Part 1:', part_1(lines))
+    print('Part 2:', part_2(lines))
+
+
+def part_1(lines):
+    return 0
+
+
+def part_2(lines):
+    return 0
+
 
 def read_input():
     with open('${day_directory}/input.txt') as f:
         return [line.strip() for line in f.readlines()]
+
 
 if __name__ == '__main__':
     main()
