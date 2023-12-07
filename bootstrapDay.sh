@@ -45,5 +45,6 @@ if __name__ == '__main__':
 " > "${day_directory}/day_${day_number}.py"
 
 touch "${day_directory}/input.txt"
+touch "${day_directory}/input2.txt"
 
 echo "Files created for day $day_number in $day_directory."
